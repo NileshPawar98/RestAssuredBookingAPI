@@ -2,16 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-14T23:31:56 IST" name="Default suite" finished-at="2026-02-14T23:32:13 IST" duration-ms="17672">
+  <suite started-at="2026-02-15T00:17:02 IST" name="Suite" finished-at="2026-02-15T00:17:17 IST" duration-ms="15245">
     <groups>
     </groups>
-    <test started-at="2026-02-14T23:31:56 IST" name="Default test" finished-at="2026-02-14T23:32:13 IST" duration-ms="17672">
-      <class name="Automation.apitesting.tests.PatchAPIRequest">
-        <test-method signature="patchAPIRequest()[pri:0, instance:Automation.apitesting.tests.PatchAPIRequest@3590fc5b]" started-at="2026-02-14T23:31:56 IST" name="patchAPIRequest" finished-at="2026-02-14T23:32:13 IST" duration-ms="17530" status="PASS">
+    <test started-at="2026-02-15T00:17:02 IST" name="Test" finished-at="2026-02-15T00:17:17 IST" duration-ms="15245">
+      <class name="Automation.apitesting.tests.EndtoEndAPITest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Automation.apitesting.tests.EndtoEndAPITest@411f53a0]" started-at="2026-02-15T00:17:02 IST" name="beforeMethod" finished-at="2026-02-15T00:17:03 IST" duration-ms="1381" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- patchAPIRequest -->
-      </class> <!-- Automation.apitesting.tests.PatchAPIRequest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="EndtoEndAPIRequest()[pri:0, instance:Automation.apitesting.tests.EndtoEndAPITest@411f53a0]" started-at="2026-02-15T00:17:03 IST" name="EndtoEndAPIRequest" finished-at="2026-02-15T00:17:17 IST" duration-ms="13733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndtoEndAPIRequest -->
+      </class> <!-- Automation.apitesting.tests.EndtoEndAPITest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
